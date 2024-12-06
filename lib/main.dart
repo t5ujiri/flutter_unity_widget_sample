@@ -10,8 +10,6 @@ void main() async {
   runZonedGuarded(() {
     runApp(const ProviderScope(child: App()));
   }, (error, trace) {
-    if (kDebugMode) {
-      print(error);
-    }
+
   });
 }

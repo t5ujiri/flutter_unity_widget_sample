@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package flutter_unity_widget_sample;
+
+import 'google/protobuf/empty.proto';
+import 'google/protobuf/timestamp.proto';
+
+message PAppState {
+  int32 count = 1;
+  bool can_jump = 2;
+}
+
+message PAppAction {
+  message Jump {
+
+  }
+
+  message SetCanJump {
+    bool can_jump = 1;
+  }
+
+  message Reset {
+
+  }
+
+  oneof action {
+    Jump jump = 1;
+    SetCanJump set_can_jump = 2;
+    Reset reset = 3;
+  }
+}

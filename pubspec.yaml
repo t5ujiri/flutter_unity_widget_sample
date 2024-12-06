@@ -1,7 +1,7 @@
 name: app
-description: A template for flutter app with UaaL.
+description: sample flutter unity widget app with redux-ish state management.
 publish_to: 'none'
-version: 1.1.0+0
+version: 1.0.0+0
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -13,9 +13,11 @@ dependencies:
   auto_route: ^9.2.2
   cupertino_icons: ^1.0.2
   flutter_hooks: ^0.20.5
+  flutter_riverpod: ^2.6.1
   flutter_unity_widget: ^2022.2.1
   freezed_annotation: ^2.2.0
   hooks_riverpod: ^2.6.1
+  logger: ^2.5.0
   protobuf: ^3.1.0
   riverpod_annotation: ^2.6.1
 

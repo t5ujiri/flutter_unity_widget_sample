@@ -14,19 +14,18 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		B46B393426BB6F8900B3B471 /* Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = B46B393326BB6F8900B3B471 /* Info-Release.plist */; };
-		B4F037172BDB8B4E00FCAEA3 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F037162BDB8B4E00FCAEA3 /* UnityFramework.framework */; };
-		B4F037182BDB8B4E00FCAEA3 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4F037162BDB8B4E00FCAEA3 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B49748D02D01BA1600DB0399 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49748CF2D01BA1600DB0399 /* UnityFramework.framework */; };
+		B49748D12D01BA1600DB0399 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B49748CF2D01BA1600DB0399 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B4F0370A2BDB8AE700FCAEA3 /* Embed Frameworks */ = {
+		B49748D22D01BA1600DB0399 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B4F037182BDB8B4E00FCAEA3 /* UnityFramework.framework in Embed Frameworks */,
+				B49748D12D01BA1600DB0399 /* UnityFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,11 +50,11 @@
 		97C146FB1CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		97C147021CF9000F007C117D /* Info-Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Debug.plist"; sourceTree = "<group>"; };
 		9A37592BD402233803DB6058 /* Pods-Runner.debug-development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-development.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-development.xcconfig"; sourceTree = "<group>"; };
 		9DEE872BFDF9A87674A6ADA0 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		B40FAAD1B954E2E1290D29F4 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B46B393326BB6F8900B3B471 /* Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Release.plist"; sourceTree = "<group>"; };
+		B49748CF2D01BA1600DB0399 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49748D92D01BE9D00DB0399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4A3C831275518EA009C9C5C /* Debug-Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Debug-Development.xcconfig"; path = "Flutter/Debug-Development.xcconfig"; sourceTree = "<group>"; };
 		B4A3C833275518EA009C9C5C /* Release-Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Release-Development.xcconfig"; path = "Flutter/Release-Development.xcconfig"; sourceTree = "<group>"; };
 		B4A3C834275518EA009C9C5C /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Development.xcconfig; path = Flutter/Development.xcconfig; sourceTree = "<group>"; };
@@ -73,7 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A79B02BDDAF9B1921DE9137 /* Pods_Runner.framework in Frameworks */,
-				B4F037172BDB8B4E00FCAEA3 /* UnityFramework.framework in Frameworks */,
+				B49748D02D01BA1600DB0399 /* UnityFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,11 +134,10 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				B49748D92D01BE9D00DB0399 /* Info.plist */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
-				97C147021CF9000F007C117D /* Info-Debug.plist */,
-				B46B393326BB6F8900B3B471 /* Info-Release.plist */,
 				1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */,
 				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
 				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
@@ -151,6 +149,7 @@
 		CFCF3F7019003102D0145364 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B49748CF2D01BA1600DB0399 /* UnityFramework.framework */,
 				B4F037162BDB8B4E00FCAEA3 /* UnityFramework.framework */,
 				B40FAAD1B954E2E1290D29F4 /* Pods_Runner.framework */,
 			);
@@ -167,9 +166,9 @@
 				E8BAADC0D18F755972821CF4 /* [CP] Check Pods Manifest.lock */,
 				9740EEB61CF901F6004384FC /* Run Script */,
 				97C146EA1CF9000F007C117D /* Sources */,
+				B49748D22D01BA1600DB0399 /* Embed Frameworks */,
 				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
-				B4F0370A2BDB8AE700FCAEA3 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
 				DC950EB36CA7E611C255641C /* [CP] Embed Pods Frameworks */,
 			);
@@ -221,7 +220,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
-				B46B393426BB6F8900B3B471 /* Info-Release.plist in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
@@ -245,7 +243,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin\n";
 		};
 		9740EEB61CF901F6004384FC /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -400,7 +398,7 @@
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 5H6T8A952X;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Runner/Info-Debug.plist";
+				INFOPLIST_FILE = Runner/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,7 +477,7 @@
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 5H6T8A952X;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Runner/Info-Debug.plist";
+				INFOPLIST_FILE = Runner/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -555,7 +553,7 @@
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 5H6T8A952X;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Runner/Info-Release.plist";
+				INFOPLIST_FILE = Runner/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -630,7 +628,7 @@
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 5H6T8A952X;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Runner/Info-Release.plist";
+				INFOPLIST_FILE = Runner/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

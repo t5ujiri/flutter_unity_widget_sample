@@ -1,7 +1,7 @@
 SHELL := /bin/zsh
 .SHELLFLAGS := -c
 
-UNITY_APP_NAME=flutter_unity_blueprints_unity
+UNITY_APP_NAME=flutter_unity_widget_sample_unity
 
 .PHONY: build-runner watch codegen unity xcode update-icon
 
